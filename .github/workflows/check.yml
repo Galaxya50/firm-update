@@ -16,10 +16,12 @@ jobs:
         include:
           - model: "SM-A505FN"
             region: "ROM"
+            files_ap: "vendor.bin.lz4"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 param.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
           - model: "SM-A505F"
             region: "TUR"
+            files_ap: "vendor.bin.lz4"
             files_bl: "cm.bin.lz4 keystorage.bin.lz4 param.bin.lz4 sboot.bin.lz4 uh.bin.lz4 up_param.bin.lz4"
             files_cp: "modem.bin.lz4 modem_debug.bin.lz4"
     steps:
